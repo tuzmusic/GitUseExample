@@ -25,11 +25,19 @@
                                     <action selector="buttonClicked:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3nw-I3-qpV"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Eai-Iw-iho">
+                                <rect key="frame" x="166" y="183" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="TYB-VB-Bh7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="1kR-dD-T1H"/>
                             <constraint firstItem="TYB-VB-Bh7" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2ZT-1b-eEa"/>
+                            <constraint firstItem="Eai-Iw-iho" firstAttribute="centerX" secondItem="TYB-VB-Bh7" secondAttribute="centerX" id="UBq-fb-AOO"/>
+                            <constraint firstItem="Eai-Iw-iho" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="163" id="qAU-KA-sWT"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
