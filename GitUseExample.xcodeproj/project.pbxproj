@@ -12,6 +12,7 @@
 		76AE0FCC20B1ED0A00A6594C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE0FCA20B1ED0A00A6594C /* Main.storyboard */; };
 		76AE0FCE20B1ED0C00A6594C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76AE0FCD20B1ED0C00A6594C /* Assets.xcassets */; };
 		76AE0FD120B1ED0C00A6594C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76AE0FCF20B1ED0C00A6594C /* LaunchScreen.storyboard */; };
+		76AE0FD920B1EDDB00A6594C /* MapForItinerary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76AE0FD820B1EDDB00A6594C /* MapForItinerary.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		76AE0FCD20B1ED0C00A6594C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76AE0FD020B1ED0C00A6594C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76AE0FD220B1ED0C00A6594C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76AE0FD820B1EDDB00A6594C /* MapForItinerary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapForItinerary.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				76AE0FC620B1ED0A00A6594C /* AppDelegate.swift */,
 				76AE0FC820B1ED0A00A6594C /* ViewController.swift */,
 				76AE0FCA20B1ED0A00A6594C /* Main.storyboard */,
+				76AE0FD820B1EDDB00A6594C /* MapForItinerary.swift */,
 				76AE0FCD20B1ED0C00A6594C /* Assets.xcassets */,
 				76AE0FCF20B1ED0C00A6594C /* LaunchScreen.storyboard */,
 				76AE0FD220B1ED0C00A6594C /* Info.plist */,
@@ -137,6 +140,7 @@
 			files = (
 				76AE0FC920B1ED0A00A6594C /* ViewController.swift in Sources */,
 				76AE0FC720B1ED0A00A6594C /* AppDelegate.swift in Sources */,
+				76AE0FD920B1EDDB00A6594C /* MapForItinerary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
